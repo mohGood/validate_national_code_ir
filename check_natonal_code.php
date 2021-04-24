@@ -14,3 +14,8 @@ function check_national_code($code)
         return true;
     return false;
 }
+
+// example
+$code = '1111111111';
+if (check_national_code($code))
+    echo $code;
