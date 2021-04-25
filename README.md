@@ -1,4 +1,12 @@
-<?php
+### Validate National Code IR 
+
+- a function for check national code (کد ملی) with PHP.
+- Just pass your string to function.
+
+
+####PHP　
+
+```php
 function check_national_code($code)
 {
     if (!preg_match('/^[0-9]{10}$/', $code))
@@ -14,9 +22,6 @@ function check_national_code($code)
         return true;
     return false;
 }
+```
 
-// example
-$code = '1111111111';
-if (check_national_code($code)) {
-    echo $code;
-}
+###End
