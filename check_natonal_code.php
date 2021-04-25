@@ -17,5 +17,6 @@ function check_national_code($code)
 
 // example
 $code = '1111111111';
-if (check_national_code($code))
+if (check_national_code($code)) {
     echo $code;
+}
